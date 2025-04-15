@@ -137,7 +137,3 @@ src/
 - API Layer riêng: Call API qua hooks hoặc libs
 - Repository Pattern: Call API qua repo giống BE style
 - Adapter Pattern: Convert API response qua FE model
-
-```
-
-```
