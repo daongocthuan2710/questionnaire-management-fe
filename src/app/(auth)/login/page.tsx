@@ -6,7 +6,7 @@ import { GoogleOutlined, AppleOutlined } from '@ant-design/icons';
 const { Title, Text, Link } = Typography;
 
 export default function LoginPage() {
-  const onFinish = (values: any) => {
+  const onFinish = (values) => {
     console.log('Login data:', values);
     // Gọi API hoặc NextAuth signIn ở đây
   };
