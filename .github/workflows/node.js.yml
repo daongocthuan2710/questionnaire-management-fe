@@ -40,7 +40,7 @@ jobs:
         run: yarn run lint
 
       - name: Build the project
-        run: yarn run build --if-present
+        run: yarn run build
 
       - name: Run unit tests
         run: yarn run test
